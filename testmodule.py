@@ -11,3 +11,12 @@ import module
 
 # Now you can call defined function that module as follows
 module.print_func("Zara")
+
+
+# Import built-in module math using the DIR function
+import math
+
+content = dir(math)
+
+print (content)
+
